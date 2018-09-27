@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    
+    
+}
+
+img {
+    height: 200px;
+    width: 150px;
+    border: 1px solid green;
+
+}
+
+ .item {
+    text-align: center;
+    background-color: darkslategray;
+    height: 230px;
+    width: 190px;
+    margin: 20px 20px;
+    
+    
+}
+
+
+.centerised1, .centerised {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+
+}
+
+.imgprp{
+    background: white;
+    
+}
+ 
+
+.centerised:hover .imgprp:not(:hover) {
+    opacity: 0.2;
+}
+
+
+button {
+    position:relative;
+    left:45%;
+background-color: aqua;
+color: blue;
+padding: 2px 15px;
+
+}
+
+
